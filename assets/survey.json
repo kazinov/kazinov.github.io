@@ -1,0 +1,39 @@
+{
+  "description": "This is a survey",
+  "questions": [
+    {
+      "type": "freetext",
+      "description": "Freetext question"
+    },
+    {
+      "type": "multiple-choice",
+      "description": "Multiple choice question",
+      "answerOptions": [
+        {
+          "description": "Option 1"
+        },
+        {
+          "description": "Option 2"
+        },
+        {
+          "description": "Option 3"
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice-single",
+      "description": "Multiple choice (single answer) question",
+      "answerOptions": [
+        {
+          "description": "Option 1"
+        },
+        {
+          "description": "Option 2"
+        },
+        {
+          "description": "Option 3"
+        }
+      ]
+    }
+  ]
+}
