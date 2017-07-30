@@ -3,7 +3,8 @@
   "questions": [
     {
       "type": "freetext",
-      "description": "Freetext question"
+      "description": "Freetext question",
+      "required": true
     },
     {
       "type": "multiple-choice",
@@ -23,6 +24,7 @@
     {
       "type": "multiple-choice-single",
       "description": "Multiple choice (single answer) question",
+      "required": true,
       "answerOptions": [
         {
           "description": "Option 1"
