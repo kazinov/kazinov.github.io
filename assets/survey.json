@@ -1,41 +1,71 @@
 {
-  "description": "This is a survey",
+  "title": "Very important survey",
+  "description": "This survey contains absolutely random questions and doesn't make any sense",
   "questions": [
     {
       "type": "freetext",
-      "description": "Freetext question",
+      "description": "Type the name of your favorite football team",
       "required": true
     },
     {
       "type": "multiple-choice",
-      "description": "Multiple choice question",
+      "description": "Mark program languages you know",
       "answerOptions": [
         {
-          "description": "Option 1"
+          "description": "Java"
         },
         {
-          "description": "Option 2"
+          "description": "C#"
         },
         {
-          "description": "Option 3"
+          "description": "Python"
+        },
+        {
+          "description": "Javascript"
         }
       ]
     },
     {
       "type": "multiple-choice-single",
-      "description": "Multiple choice (single answer) question",
+      "description": "Choose only one band",
       "required": true,
       "answerOptions": [
         {
-          "description": "Option 1"
+          "description": "Red Hot Chili Peppers"
         },
         {
-          "description": "Option 2"
+          "description": "Nirvana"
         },
         {
-          "description": "Option 3"
+          "description": "Metallica"
+        },
+        {
+          "description": "Justin Bieber"
         }
       ]
+    },
+    {
+      "type": "multiple-choice-single",
+      "description": "Select one option",
+      "required": true,
+      "answerOptions": [
+        {
+          "description": "Coffee"
+        },
+        {
+          "description": "Tea"
+        },
+        {
+          "description": "Beer"
+        },
+        {
+          "description": "Tequila"
+        }
+      ]
+    },
+    {
+      "type": "freetext",
+      "description": "Who killed Laura Palmer?"
     }
   ]
 }
