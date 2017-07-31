@@ -1,13 +1,16 @@
 {
-  "title": "Very important survey",
+  "id": "survey-1",
+  "title": "Example survey",
   "description": "This survey contains absolutely random questions and doesn't make any sense",
   "questions": [
     {
+      "id": "question-1",
       "type": "freetext",
       "description": "Type the name of your favorite football team",
       "required": true
     },
     {
+      "id": "question-2",
       "type": "multiple-choice",
       "description": "Mark program languages you know",
       "answerOptions": [
@@ -26,6 +29,7 @@
       ]
     },
     {
+      "id": "question-3",
       "type": "multiple-choice-single",
       "description": "Choose only one band",
       "required": true,
@@ -45,6 +49,7 @@
       ]
     },
     {
+      "id": "question-4",
       "type": "multiple-choice-single",
       "description": "Select one option",
       "required": true,
@@ -64,6 +69,7 @@
       ]
     },
     {
+      "id": "question-5",
       "type": "freetext",
       "description": "Who killed Laura Palmer?"
     }
